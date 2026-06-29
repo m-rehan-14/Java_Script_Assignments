@@ -12,23 +12,23 @@
 // required arithmetic to display the following result in your 
 // browser:   
 
-// var a = 10;
+var a = 10;
 
-// document.write("Result:<br>");
-// document.write("The value of a is: " + a + "<br>");
-// document.write("--------------------------------<br><br>");
+document.write("Result:<br>");
+document.write("The value of a is: " + a + "<br>");
+document.write("--------------------------------<br><br>");
 
-// document.write("The value of ++a is: " + (++a) + "<br>");
-// document.write("Now the value of a is: " + a + "<br><br>");
+document.write("The value of ++a is: " + (++a) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
 
-// document.write("The value of a++ is: " + (a++) + "<br>");
-// document.write("Now the value of a is: " + a + "<br><br>");
+document.write("The value of a++ is: " + (a++) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
 
-// document.write("The value of --a is: " + (--a) + "<br>");
-// document.write("Now the value of a is: " + a + "<br><br>");
+document.write("The value of --a is: " + (--a) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
 
-// document.write("The value of a-- is: " + (a--) + "<br>");
-// document.write("Now the value of a is: " + a + "<br><br>");
+document.write("The value of a-- is: " + (a--) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
 
 
 // Q2= What will be the output in variables a, b & result after 
@@ -37,20 +37,20 @@
 // var result = --a - --b + ++b + b--; 
 // Explain the output at each stage: --a; --a - --b; --a - --b + ++b; --a - --b + ++b + b--; 
 
-    // var a = 2, b = 1;
+    var a = 2, b = 1;
 
-    // var result = --a - --b + ++b + b--;
+    var result = --a - --b + ++b + b--;
 
-    // document.write("a is " + a + "<br>");
-    // document.write("b is " + b + "<br>");
-    // document.write("result is " + result);
+    document.write("a is " + a + "<br>");
+    document.write("b is " + b + "<br>");
+    document.write("result is " + result);
 
 
 // Q3= Write a program that takes input a name from user & 
 // greet the user. 
 
-// var userName = prompt("enter your name?");
-// alert("Welcome to our website!");
+var userName = prompt("enter your name?");
+alert("Welcome to our website!");
 
 
 // Q4= not given
@@ -61,24 +61,24 @@
 // does not enter a new number, multiplication table of 5 
 // should be displayed by default. 
 
-//  var num = prompt("Enter a number:", 5);
+ var num = prompt("Enter a number:", 5);
 
-//     if (num === "" || num === null) {
-//         num = 5;
-//     }
+    if (num === "" || num === null) {
+        num = 5;
+    }
 
-//     document.write("<h3>Multiplication Table of " + num + "</h3>");
+    document.write("<h3>Multiplication Table of " + num + "</h3>");
 
-//     document.write(num + " x 1 = " + (num * 1) + "<br>");
-//     document.write(num + " x 2 = " + (num * 2) + "<br>");
-//     document.write(num + " x 3 = " + (num * 3) + "<br>");
-//     document.write(num + " x 4 = " + (num * 4) + "<br>");
-//     document.write(num + " x 5 = " + (num * 5) + "<br>");
-//     document.write(num + " x 6 = " + (num * 6) + "<br>");
-//     document.write(num + " x 7 = " + (num * 7) + "<br>");
-//     document.write(num + " x 8 = " + (num * 8) + "<br>");
-//     document.write(num + " x 9 = " + (num * 9) + "<br>");
-//     document.write(num + " x 10 = " + (num * 10) + "<br>");
+    document.write(num + " x 1 = " + (num * 1) + "<br>");
+    document.write(num + " x 2 = " + (num * 2) + "<br>");
+    document.write(num + " x 3 = " + (num * 3) + "<br>");
+    document.write(num + " x 4 = " + (num * 4) + "<br>");
+    document.write(num + " x 5 = " + (num * 5) + "<br>");
+    document.write(num + " x 6 = " + (num * 6) + "<br>");
+    document.write(num + " x 7 = " + (num * 7) + "<br>");
+    document.write(num + " x 8 = " + (num * 8) + "<br>");
+    document.write(num + " x 9 = " + (num * 9) + "<br>");
+    document.write(num + " x 10 = " + (num * 10) + "<br>");
 
 
 // Q6=  Take 
@@ -93,66 +93,66 @@
 // e) Now calculate total marks and percentage and show the 
 // result in browser like this.(Hint: user table)
 
-// var sub1 = prompt("Enter first subject name");
-// var sub2 = prompt("Enter second subject name");
-// var sub3 = prompt("Enter third subject name");
+var sub1 = prompt("Enter first subject name");
+var sub2 = prompt("Enter second subject name");
+var sub3 = prompt("Enter third subject name");
 
-// var totalMarks = 100;
+var totalMarks = 100;
 
-// var marks1 = +prompt("Enter your obtained marks for " + sub1);
-// var marks2 = +prompt("Enter your obtained marks for " + sub2);
-// var marks3 = +prompt("Enter your obtained marks for " + sub3);
+var marks1 = +prompt("Enter your obtained marks for " + sub1);
+var marks2 = +prompt("Enter your obtained marks for " + sub2);
+var marks3 = +prompt("Enter your obtained marks for " + sub3);
 
-// var percentage1 = (marks1 / totalMarks) * 100;
-// var percentage2 = (marks2 / totalMarks) * 100;
-// var percentage3 = (marks3 / totalMarks) * 100;
+var percentage1 = (marks1 / totalMarks) * 100;
+var percentage2 = (marks2 / totalMarks) * 100;
+var percentage3 = (marks3 / totalMarks) * 100;
 
-// var grandTotal = totalMarks * 3;
-// var obtainedTotal = marks1 + marks2 + marks3;
-// var totalPercentage = (obtainedTotal / grandTotal) * 100;
+var grandTotal = totalMarks * 3;
+var obtainedTotal = marks1 + marks2 + marks3;
+var totalPercentage = (obtainedTotal / grandTotal) * 100;
 
-// document.write("<table>");
+document.write("<table>");
 
-// document.write("<tr>");
-// document.write("<th>Subject</th>");
-// document.write("<th>Total Marks</th>");
-// document.write("<th>Obtained Marks</th>");
-// document.write("<th>Percentage</th>");
-// document.write("</tr>");
+document.write("<tr>");
+document.write("<th>Subject</th>");
+document.write("<th>Total Marks</th>");
+document.write("<th>Obtained Marks</th>");
+document.write("<th>Percentage</th>");
+document.write("</tr>");
 
-// document.write("<tr>");
-// document.write("<td>" + sub1 + "</td>");
-// document.write("<td>100</td>");
-// document.write("<td>" + marks1 + "</td>");
-// document.write("<td>" + percentage1.toFixed(2) + "%</td>");
-// document.write("</tr>");
+document.write("<tr>");
+document.write("<td>" + sub1 + "</td>");
+document.write("<td>100</td>");
+document.write("<td>" + marks1 + "</td>");
+document.write("<td>" + percentage1.toFixed(2) + "%</td>");
+document.write("</tr>");
 
-// document.write("<tr>");
-// document.write("<td>" + sub2 + "</td>");
-// document.write("<td>100</td>");
-// document.write("<td>" + marks2 + "</td>");
-// document.write("<td>" + percentage2.toFixed(2) + "%</td>");
-// document.write("</tr>");
+document.write("<tr>");
+document.write("<td>" + sub2 + "</td>");
+document.write("<td>100</td>");
+document.write("<td>" + marks2 + "</td>");
+document.write("<td>" + percentage2.toFixed(2) + "%</td>");
+document.write("</tr>");
 
-// document.write("<tr>");
-// document.write("<td>" + sub3 + "</td>");
-// document.write("<td>100</td>");
-// document.write("<td>" + marks3 + "</td>");
-// document.write("<td>" + percentage3.toFixed(2) + "%</td>");
-// document.write("</tr>");
+document.write("<tr>");
+document.write("<td>" + sub3 + "</td>");
+document.write("<td>100</td>");
+document.write("<td>" + marks3 + "</td>");
+document.write("<td>" + percentage3.toFixed(2) + "%</td>");
+document.write("</tr>");
 
-// document.write("<tr>");
-// document.write("<td></td>");
-// document.write("<td><b>" + grandTotal + "</b></td>");
-// document.write("<td><b>" + obtainedTotal + "</b></td>");
-// document.write("<td><b>" + totalPercentage.toFixed(2) + "%</b></td>");
-// document.write("</tr>");
+document.write("<tr>");
+document.write("<td></td>");
+document.write("<td><b>" + grandTotal + "</b></td>");
+document.write("<td><b>" + obtainedTotal + "</b></td>");
+document.write("<td><b>" + totalPercentage.toFixed(2) + "%</b></td>");
+document.write("</tr>");
 
-// document.write("</table>");
+document.write("</table>");
 
-// <tr> starts a row.
-// <th> creates heading cells.
-// </tr> ends the row.
+<tr> starts a row.
+<th> creates heading cells.
+</tr> ends the row.
 
 
 // Q7= not given 
