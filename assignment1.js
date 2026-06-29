@@ -15,7 +15,7 @@ alert("ERROR! Please enter a valid password.");
 alert("Welcome to JS land...\nHappy Coding!");
 
 
-// Q4= SKIPPED
+// Q4= NOT GIVEN
 
 
 // Q5= Generate the following message through browser's developer console:
